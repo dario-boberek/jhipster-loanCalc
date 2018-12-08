@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "loanCalc",
+    "packageName": "com.i21.pocco",
+    "packageFolder": "com/i21/pocco",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "session",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.0",
+    "rememberMeKey": "a6443c2cd9d26cad3ae6a2827c55ed173b450425c55ce69ccade32cf686c71d61e981f3843209b2aec3912bdd27802f35bfa",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "iteration21",
+  "repository-name": "jhipster-loanCalc"
+}
