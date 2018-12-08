@@ -1,0 +1,27 @@
+entity Loan {
+	loanId Long required,
+	startDate Instant,
+    endDate Instant,
+    principal String,
+    amount Long
+}
+
+entity Customer {
+	customerId Long required
+	firstName String,
+    lastName String,
+	email String,
+    phoneNumber String
+}
+
+relationship OneToMany {
+	Customer{loan} to Loan
+}
+
+// Set pagination options
+paginate Loan with infinite-scroll
+
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+
+
