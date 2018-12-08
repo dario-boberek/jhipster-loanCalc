@@ -40,6 +40,9 @@ public class CacheConfiguration {
             cm.createCache(com.i21.pocco.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(com.i21.pocco.domain.PersistentToken.class.getName(), jcacheConfiguration);
             cm.createCache(com.i21.pocco.domain.User.class.getName() + ".persistentTokens", jcacheConfiguration);
+            cm.createCache(com.i21.pocco.domain.Loan.class.getName(), jcacheConfiguration);
+            cm.createCache(com.i21.pocco.domain.Customer.class.getName(), jcacheConfiguration);
+            cm.createCache(com.i21.pocco.domain.Customer.class.getName() + ".loans", jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
